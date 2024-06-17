@@ -25,7 +25,7 @@ class _TelaListaHinosState extends State<TelaListaHinos> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Hinos', style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.black),),
+        title: Text('Músicas', style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.w600, color: Colors.black),),
         leading: GestureDetector(
           onTap: () {
             Navigator.of(context).pop();

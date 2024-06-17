@@ -25,9 +25,13 @@ class _HomeState extends State<Home> {
               onTap: () {
                 Navigator.of(context).pushNamed('/hinos');
               },
-              child: cardBotao(titulo: 'Hinos', icone: Ionicons.musical_note)),
+              child: cardBotao(titulo: 'Música', icone: Ionicons.musical_note)),
             const SizedBox(height: 16),
-            cardBotao(titulo: 'Escala', icone: Ionicons.list_outline),
+            InkWell(
+              onTap: () {
+                Navigator.of(context).pushNamed('/telaEscalaServico');
+              },
+              child: cardBotao(titulo: 'Escala', icone: Ionicons.list_outline)),
             const SizedBox(height: 16),
             InkWell(
               onTap: () {

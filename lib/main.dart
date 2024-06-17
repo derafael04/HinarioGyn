@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hinario_gyn/Avisos/tela_avisos.dart';
 import 'package:hinario_gyn/Avisos/tela_cadastro_avisos.dart';
+import 'package:hinario_gyn/Escala/tela_escala_servico.dart';
 import 'package:hinario_gyn/Hinos/tela_cadastrar_musica.dart';
 import 'package:hinario_gyn/Hinos/tela_lista_hinos.dart';
 import 'package:hinario_gyn/Inicio/homePage.dart';
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
           '/hinosReuniao': (context) => const TelaHinosReuniao(),
           '/telaCadastroMusica': (context) => const TelaCadastroMusica(),
           '/telaAvisos': (context) => const TelaAvisos(),
-          '/telaCadastroAvisos':(context) => const TelaCadastroAvisos()
+          '/telaCadastroAvisos':(context) => const TelaCadastroAvisos(),
+          '/telaEscalaServico':(context) => const TelaEscalaServico()
         },
     );
   }
