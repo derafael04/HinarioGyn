@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hinario_gyn/Avisos/tela_avisos.dart';
 import 'package:hinario_gyn/Avisos/tela_cadastro_avisos.dart';
+import 'package:hinario_gyn/Escala/tela_cadastro_escala.dart';
 import 'package:hinario_gyn/Escala/tela_escala_servico.dart';
 import 'package:hinario_gyn/Hinos/tela_cadastrar_musica.dart';
 import 'package:hinario_gyn/Hinos/tela_lista_hinos.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Melodiz',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
           '/telaCadastroMusica': (context) => const TelaCadastroMusica(),
           '/telaAvisos': (context) => const TelaAvisos(),
           '/telaCadastroAvisos':(context) => const TelaCadastroAvisos(),
-          '/telaEscalaServico':(context) => const TelaEscalaServico()
+          '/telaEscalaServico':(context) => const TelaEscalaServico(),
+          '/telaCadastroEscala':(context) => const TelaCadastroEscala()
         },
     );
   }

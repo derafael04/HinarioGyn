@@ -26,7 +26,9 @@ class _TelaEscalaServicoState extends State<TelaEscalaServico> {
           Padding(
             padding: const EdgeInsets.only(right: 16),
             child: InkWell(
-              onTap: () {},
+              onTap: () {
+                Navigator.of(context).pushNamed('/telaCadastroEscala');
+              },
               child: Container(
                 height: 38,
                 width: 38,
